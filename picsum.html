@@ -4,12 +4,62 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>Imagenes picsum</title>
    <link rel="stylesheet" href="estilos.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;1,300&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+   <div class="title"><h1>IMAGENES PICSUM</h1>
+   </div>
+   <div class="menu">
+      <div class="page">
+         <label>ESCALA DE GRISES</label><br><input type="checkbox" id="myCheck">
+      </div>
+      <div class="page">
+      <p>BLUR</p> 
+      <select name="blur" id="blur">
+         <option>1</option>
+         <option>2</option>
+         <option>3</option>
+         <option>4</option>
+         <option>5</option>
+         <option>6</option>
+         <option>7</option>
+         <option>8</option>
+         <option>9</option>
+         <option>10</option>
+       </select>
+      </div>
+       <div class="page" id="pagina">
+       <p>PAGINA</p> 
+       <select name="Pagina">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+        </div>
+        <div class="page" id="cantidad">
+        <p>CANTIDAD</p> 
+        <select name="Cantidad">
+           <option>1</option>
+           <option>2</option>
+           <option>3</option>
+           <option>4</option>
+           <option>5</option>
+           <option>6</option>
+           <option>7</option>
+           <option>8</option>
+         </select>
+      </div>
+   </div>
+   <div class="page1">
+      <button class="boton cinco" id="btn_aceptar">aceptar</button>
+   </div>
    <div id="menu">
    </div>
 <script src="picsum.js"></script>
+<script src="picsum2.js"></script>
 </body>
 </html>

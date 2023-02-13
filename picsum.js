@@ -1,6 +1,8 @@
-(function(){
 
-    function uniqBy(a, key) {
+
+(function(){
+    
+      function uniqBy(a, key) {
         var seen = {};
         return a.filter(function(item) {
             var k = key(item);
